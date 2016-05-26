@@ -18,13 +18,15 @@
 
 	<script id="project-template" type="text/x-handlebars-template">
 		<div class="project" style="background-image:url(img/{{img}})">
-			<div class="project_overlay"></div>
-			<div class="project_effect" style="background-image:url(img/{{img}})"></div>
-			<div class="project_info">
-				{{#each info}}
-					<div>{{this}}</div>
-				{{/each}}
-			</div>
+			<a class="project_link" target="_blank" href="{{url}}">
+				<div class="project_overlay"></div>
+				<div class="project_effect" style="background-image:url(img/{{img}})"></div>
+				<div class="project_info">
+					{{#each info}}
+						<div>{{this}}</div>
+					{{/each}}
+				</div>
+			</a>
 		</div>
 	</script>
 	<script src="js/script.js"></script>

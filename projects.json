@@ -1,0 +1,14 @@
+{
+	"withouterrors" : {
+		"img":"withouterrors.jpg",
+		"info": ["Wordpress theme", "Logo design"]
+	},
+	"mo" : {
+		"img":"mo.png",
+		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"]
+	},
+	"m2o" : {
+		"img":"mo.png",
+		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"]
+	}
+}

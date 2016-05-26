@@ -20,16 +20,31 @@
 		filter blur(10px)
 		opacity 0
 		transition opacity 400ms ease-in-out
+		
+	&_overlay
+		position absolute
+		top 0
+		left 0
+		right 0
+		bottom 0
+		background-color white
+		opacity 0
+		transition opacity 400ms ease-in-out
 			
 	&:hover &_effect
-		opacity 1
-		
+		opacity .3
 	&:hover &_info
-		transition opacity 400ms ease-in-out 300ms
+		transition opacity 400ms ease-in-out 100ms
 		opacity 1
-		
+	&:hover &_overlay
+		opacity 1
+
 	&_info
 		transition opacity 200ms ease-in-out
+		padding 40px 20px
+		text-align center
+		font-size 20px
+		font-weight 400
 		align-self center
 		position relative
 		opacity 0

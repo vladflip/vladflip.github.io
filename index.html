@@ -3,57 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>VladFlip</title>
-	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="header"></div>
 	<div class="content">
-		<div class="container">
+		<div id="projects" class="container">
 			<!-- web design, logos/design, programming -->
-			<div class="project" style="background-image:url(img/zshi-shi.jpg)">
-				<div class="project_effect" style="background-image:url(img/zshi-shi.jpg)"></div>
-				<div class="project_info">
-					Website project example.
-				</div>
-			</div>
-			<div class="project" style="background-image:url(img/mo.png)">
-				<div class="project_effect" style="background-image:url(img/mo.png)"></div>
-				<div class="project_info">
-					Website project example.
-				</div>
-			</div>
-			<div class="project" style="background-image:url(img/mo.png)">
-				<div class="project_effect" style="background-image:url(img/mo.png)"></div>
-				<div class="project_info">
-					Website project example.
-				</div>
-			</div>
-			<div class="project" style="background-image:url(img/mo.png)">
-				<div class="project_effect" style="background-image:url(img/mo.png)"></div>
-				<div class="project_info">
-					Website project example.
-				</div>
-			</div>
-			<div class="project" style="background-image:url(img/mo.png)">
-				<div class="project_effect" style="background-image:url(img/mo.png)"></div>
-				<div class="project_info">
-					Website project example.
-				</div>
-			</div>
-			<div class="project" style="background-image:url(img/mo.png)">
-				<div class="project_effect" style="background-image:url(img/mo.png)"></div>
-				<div class="project_info">
-					Website project example.
-				</div>
-			</div>
-			<div class="project" style="background-image:url(img/mo.png)">
-				<div class="project_effect" style="background-image:url(img/mo.png)"></div>
-				<div class="project_info">
-					Website project example.
-				</div>
-			</div>
 		</div>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+	<script src="js/vendor/handlebars.js"></script>
+
+	<script id="project-template" type="text/x-handlebars-template">
+		<div class="project" style="background-image:url(img/{{img}})">
+			<div class="project_overlay"></div>
+			<div class="project_effect" style="background-image:url(img/{{img}})"></div>
+			<div class="project_info">
+				{{#each info}}
+					<div>{{this}}</div>
+				{{/each}}
+			</div>
+		</div>
+	</script>
+	<script src="js/script.js"></script>
 </body>
 </html>

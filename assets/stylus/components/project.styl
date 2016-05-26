@@ -1,0 +1,35 @@
+.project
+	
+	display flex
+	justify-content center
+
+	width 300px
+	height 300px
+	overflow hidden
+	cursor pointer
+	position relative
+	background white center no-repeat
+	
+	&_effect
+		position absolute
+		top 0
+		left 0
+		right 0
+		bottom 0
+		background white center no-repeat
+		filter blur(15px)
+		opacity 0
+		transition opacity 400ms ease-in-out
+			
+	&:hover &_effect
+		opacity 1
+		
+	&:hover &_info
+		transition opacity 400ms ease-in-out 300ms
+		opacity 1
+		
+	&_info
+		transition opacity 200ms ease-in-out
+		align-self center
+		position relative
+		opacity 0

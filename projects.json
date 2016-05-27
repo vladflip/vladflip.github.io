@@ -29,6 +29,21 @@
 		"info": ["Logo Design"],
 		"images": ["infocenter/logo-big.png"]
 	},
+	"inga" : {
+		"img":"inga.png",
+		"info": ["Frontend Development"],
+		"url": "http://vladflip.github.io/job/portfolio1/"
+	},
+	"oenglish" : {
+		"img":"oenglish.png",
+		"info": ["Logo Design", "Video Player Development", "Frontend Development"],
+		"url": "http://www.oenglish.ru/"
+	},
+	"oenglish" : {
+		"img":"oenglish.png",
+		"info": ["Logo Design", "Video Player Development", "Frontend Development"],
+		"url": "http://www.oenglish.ru/"
+	},
 	"bikes" : {
 		"img":"bikes/logo.PNG",
 		"info": ["Logo Design", "Wordpress Theme", "Frontend Development", "Backend Development"],

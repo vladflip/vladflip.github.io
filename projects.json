@@ -1,17 +1,47 @@
 {
+	"mo" : {
+		"img":"mo.png",
+		"url" : ["http://www.mo.hneu.edu.ua/"],
+		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"]
+	},
+	"ourcare" : {
+		"img":"ourcare.png",
+		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"],
+		"url": "http://ourcare.hol.es/"
+	},
 	"withouterrors" : {
 		"img":"withouterrors.jpg",
 		"url": "http://xn--90aalifnzc1g.xn--p1ai/",
-		"info": ["Wordpress theme", "Logo design"]
+		"info": ["Wordpress Theme", "Logo design"]
 	},
-	"mo" : {
-		"img":"mo.png",
-		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"],
-		"url" : ["mo.png"],
-		"images" : ["mo.png", "withouterrors.png"]
+	"patriotki" : {
+		"img":"patriotki.png",
+		"info": ["Wordpress Theme", "Frontend Development", "Backend Development"],
+		"url": "http://patriotki.ru/"
 	},
-	"m2o" : {
-		"img":"mo.png",
-		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"]
+	"oenglish" : {
+		"img":"oenglish.png",
+		"info": ["Logo Design", "Video player development", "Frontend Development"],
+		"url": "http://www.oenglish.ru/"
+	},
+	"infocenter" : {
+		"img":"infocenter/logo-small.png",
+		"info": ["Logo Design"],
+		"images": ["infocenter/logo-big.png"]
+	},
+	"bikes" : {
+		"img":"bikes/logo.PNG",
+		"info": ["Logo Design", "Wordpress Theme", "Frontend Development", "Backend Development"],
+		"images": ["bikes/1.jpg","bikes/2.jpg","bikes/3.jpg","bikes/4.jpg"]
+	},
+	"komtrans" : {
+		"img":"komtrans/logo.jpg",
+		"info": ["Frontend Development", "Backend Development", "Database Design", "Project Management"],
+		"images": ["komtrans/1.jpg","komtrans/2.jpg","komtrans/3.jpg"]
+	},
+	"pushkina" : {
+		"img":"pushkina/logo.png",
+		"info": ["Frontend Development", "Wordpress Theme", "Design Development"],
+		"images": ["pushkina/1.jpg","pushkina/2.jpg","pushkina/3.jpg"]
 	}
 }

@@ -23,5 +23,10 @@ $.ajax
 renderProjects = (projects) ->
 	el = $ '#projects'
 	template = Handlebars.compile($('#project-template').html());
+	counter = 700
 	for key, project of projects
-		el.append template project
+		projectElement = $(template project)
+		el.append projectElement
+		projectElement.delay(counter+=150).queue (next) ->
+			$(this).css({"opacity":1, "top":0})
+			next()

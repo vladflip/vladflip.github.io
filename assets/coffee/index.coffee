@@ -16,7 +16,7 @@ $.ajax
 .done (projects) ->
 	setTimeout ->
 		do fadeoutLoader
-	, 1000
+	, 700
 	renderProjects projects
 
 # fadein sequently projects count+ 200 ms

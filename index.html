@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>VladFlip</title>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link href="css/lightbox.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,12 +16,13 @@
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
 	<script src="js/vendor/handlebars.js"></script>
+	<script src="js/vendor/lightbox.js"></script>
 
 	<script id="project-template" type="text/x-handlebars-template">
-		<div class="project" style="background-image:url(img/{{img}})">
+		<div class="project" style="background-image:url(images/{{img}})">
 			<a class="project_link" target="_blank" href="{{url}}">
 				<div class="project_overlay"></div>
-				<div class="project_effect" style="background-image:url(img/{{img}})"></div>
+				<div class="project_effect" style="background-image:url(images/{{img}})"></div>
 				<div class="project_info">
 					{{#each info}}
 						<div>{{this}}</div>

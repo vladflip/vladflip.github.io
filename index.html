@@ -19,17 +19,44 @@
 	<script src="js/vendor/lightbox.js"></script>
 
 	<script id="project-template" type="text/x-handlebars-template">
+
 		<div class="project" style="background-image:url(images/{{img}})">
-			<a class="project_link" target="_blank" href="{{url}}">
-				<div class="project_overlay"></div>
-				<div class="project_effect" style="background-image:url(images/{{img}})"></div>
-				<div class="project_info">
-					{{#each info}}
-						<div>{{this}}</div>
-					{{/each}}
-				</div>
-			</a>
+			
+			{{#if images}}
+				{{#each images}}
+					{{#unless @index}}
+						<a class="project_link" href="images/{{this}}" 
+						data-lightbox="images-{{../img}}">
+					{{/unless}}
+				{{/each}}
+					<div class="project_overlay"></div>
+					<div class="project_effect" style="background-image:url(images/{{img}})"></div>
+					<div class="project_info">
+						{{#each info}}
+							<div>{{this}}</div>
+						{{/each}}
+					</div>
+				</a>
+				{{#each images}}
+					{{#if @index}}
+						<a href="images/{{this}}" 
+						data-lightbox="images-{{../img}}"></a>
+					{{/if}}
+				{{/each}}
+			{{else}}
+				<a class="project_link" target="_blank" href="{{url}}">
+					<div class="project_overlay"></div>
+					<div class="project_effect" style="background-image:url(images/{{img}})"></div>
+					<div class="project_info">
+						{{#each info}}
+							<div>{{this}}</div>
+						{{/each}}
+					</div>
+				</a>
+			{{/if}}
+				
 		</div>
+
 	</script>
 	<script src="js/script.js"></script>
 </body>

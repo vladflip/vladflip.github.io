@@ -6,7 +6,9 @@
 	},
 	"mo" : {
 		"img":"mo.png",
-		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"]
+		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"],
+		"url" : ["mo.png"],
+		"images" : ["mo.png", "withouterrors.jpg"]
 	},
 	"m2o" : {
 		"img":"mo.png",

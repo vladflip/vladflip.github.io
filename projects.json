@@ -34,15 +34,15 @@
 		"info": ["Frontend Development"],
 		"url": "http://vladflip.github.io/job/portfolio1/"
 	},
-	"oenglish" : {
-		"img":"oenglish.png",
-		"info": ["Logo Design", "Video Player Development", "Frontend Development"],
-		"url": "http://www.oenglish.ru/"
+	"katya" : {
+		"img":"katya.png",
+		"info": ["Frontend Development"],
+		"url": "http://vladflip.github.io/job/portfolio2h/"
 	},
-	"oenglish" : {
-		"img":"oenglish.png",
-		"info": ["Logo Design", "Video Player Development", "Frontend Development"],
-		"url": "http://www.oenglish.ru/"
+	"karolina" : {
+		"img":"karolina.png",
+		"info": ["Frontend Development"],
+		"url": "http://vladflip.github.io/life/"
 	},
 	"bikes" : {
 		"img":"bikes/logo.PNG",

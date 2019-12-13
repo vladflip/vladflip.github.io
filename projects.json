@@ -7,11 +7,11 @@
 	"ourcare" : {
 		"img":"ourcare.png",
 		"info": ["Logo Design", "Wordpress Theme", "Frontend Development"],
-		"url": "http://ourcare.hol.es/"
+		"url": "#"
 	},
 	"withouterrors" : {
 		"img":"withouterrors.jpg",
-		"url": "http://xn--90aalifnzc1g.xn--p1ai/",
+		"url": "#",
 		"info": ["Wordpress Theme", "Logo design"]
 	},
 	"patriotki" : {

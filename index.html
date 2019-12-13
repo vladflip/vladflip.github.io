@@ -53,7 +53,7 @@
 					{{/if}}
 				{{/each}}
 			{{else}}
-				<a class="project_link" target="_blank" href="{{url}}">
+				<a class="project_link" {{#if url}} target="_blank" href="{{url}}" {{else}} href="#" {{/if}}">
 					<div class="project_overlay"></div>
 					<div class="project_effect" style="background-image:url(images/{{img}})"></div>
 					<div class="project_info">
